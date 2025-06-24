@@ -23,7 +23,7 @@ int main() {
     signed_int++;
     unsigned_int++;
     printf("After incrementing by 1:\n");
-    printf("Signed int: %d (overflowed), Unsigned int: %u (wrapped around)\n\n", signed_int, unsigned_int);
+    printf("Signed int: %d, Unsigned int: %u \n", signed_int, unsigned_int);
 
 
     return 0;
